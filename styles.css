@@ -50,4 +50,27 @@ span {
     background-color: lightgreen;
     grid-column: 2;
     grid-row: 2;
+
+    display: grid;
+    grid-template-columns: 550px 250px;
+    grid-template-rows: 300px 300px;
+}
+
+.projects {
+    background-color: yellow;
+    gap: 5px;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+
+    display: grid;
+    grid-template-columns: 275px 275px;
+    grid-template-rows: 50px 550px;
+}
+
+.announcements {
+    background-color: lightpink;
+}
+
+.trending {
+    background-color: blueviolet;
 }
