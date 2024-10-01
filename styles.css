@@ -75,6 +75,15 @@ span {
 
 .announcements {
     background-color: lightpink;
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 60px repeat(3,76px);
+    margin: auto;
+    gap: 4px;
+}
+
+.announce {
+    background-color: bisque;
 }
 
 .trending {
