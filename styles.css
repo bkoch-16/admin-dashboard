@@ -58,13 +58,19 @@ span {
 
 .projects {
     background-color: yellow;
-    gap: 5px;
     grid-column: 1;
     grid-row: 1 / span 2;
 
     display: grid;
-    grid-template-columns: 275px 275px;
-    grid-template-rows: 50px 550px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60px repeat(3,1fr);
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.project-tile {
+    background-color: green;
+
 }
 
 .announcements {
@@ -73,4 +79,16 @@ span {
 
 .trending {
     background-color: blueviolet;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px repeat(4, 1fr);
+}
+
+.trending-tile {
+    background-color: red;
+    display: grid;
+    grid-template-columns: 50px minmax(125px, 1fr);
+    grid-template-rows: 50px;
+    margin: auto;
 }
