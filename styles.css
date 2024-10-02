@@ -15,7 +15,7 @@ span {
 }
 
 .header {
-    background-color: lightblue;
+    background-color: white;
     grid-column: 2;
     grid-row: 1;
 
@@ -24,10 +24,6 @@ span {
     grid-template-rows: 60px 90px;
 }
 
-.head-top {
-    background-color: brown;
-    
-}
 
 .search {
     display: grid;
@@ -36,57 +32,76 @@ span {
     margin: 10px 15px;
 }
 
-.search-img {
-    background-color: lightgoldenrodyellow;
-    margin: 4px;
+.search-icon {
+    height: 20px;
+    width: auto;
+    margin: auto;
 }
 
 .search-bar {
-    background-color: green;
+    background-color: #e5e7eb;
     margin: 5px;
     border-radius: 15px;
 }
 
 .head-bottom {
-    background-color: brown;
     margin: 15px;
 }
 
 .profile {
-    margin: 10px 15px 10px 45px;
+    margin: 0px 15px 0px 30px;
 
     display: grid;
-    grid-template-columns: 40px 40px 1fr;
-    grid-template-rows: 40px;
+    grid-template-columns: 40px 60px 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 10px;
 }
 
 .profile > * {
-    margin:auto;
+    margin: auto 5px;
+}
+
+.profile > img {
+    height: 30px;
+    width: auto;
+}
+
+#profile-picture {
+    height: 50px;
+    width: auto;
+    border-radius: 25px;
 }
 
 .greeting {
     display: grid;
     grid-template-columns: 60px 410px;
     grid-template-rows: 30px 30px;
+    column-gap: 20px;
 }
 
-.img {
+#large-profile-picture {
     grid-column: 1;
     grid-row: 1 / span 2;
-    background-color: blue;
-    margin: 5px;
+
+
+    height: 60px;
+    width: auto;
+    border-radius: 35px;
+
 }
 
 .greet-one {
     grid-column: 2;
     grid-row: 1;
     margin: auto 0px;
+    font-weight: bold;
 }
 
 .greet-two {
     grid-column: 2;
     grid-row: 2;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .button-panel {
@@ -95,10 +110,12 @@ span {
 }
 
 button {
-    margin: 15px;
+    margin: 15px 10px;
     border-radius: 15px;
     border: none;
-
+    background-color: #60a5fa;
+    color: white;
+    font-weight: bold;
 }
 
 
