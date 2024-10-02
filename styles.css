@@ -24,9 +24,44 @@ span {
     grid-template-rows: 60px 90px;
 }
 
-.head {
+.head-top {
+    background-color: brown;
+    
+}
+
+.search {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    grid-template-rows: 40px;
+    margin: 10px 15px;
+}
+
+.search-img {
+    background-color: lightgoldenrodyellow;
+    margin: 4px;
+}
+
+.search-bar {
+    background-color: green;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.head-bottom {
     background-color: brown;
     margin: 15px;
+}
+
+.profile {
+    margin: 10px 15px 10px 45px;
+
+    display: grid;
+    grid-template-columns: 40px 40px 1fr;
+    grid-template-rows: 40px;
+}
+
+.profile > * {
+    margin:auto;
 }
 
 .greeting {
@@ -63,7 +98,7 @@ button {
     margin: 15px;
     border-radius: 15px;
     border: none;
-    
+
 }
 
 
