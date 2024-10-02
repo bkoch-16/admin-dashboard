@@ -147,13 +147,33 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 60px repeat(3,1fr);
-    gap: 15px;
+    gap: 10px;
     margin-bottom: 25px;
+}
+
+.projects-title {
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 24px;
 }
 
 .project-tile {
     background-color: green;
+    margin:10px;
+    border-radius: 5px;
 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 1fr;
+}
+
+.tile-title {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.tile-content {
+    margin: 10px 5px 5px 15px;
 }
 
 .announcements {
