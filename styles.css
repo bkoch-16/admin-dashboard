@@ -29,6 +29,45 @@ span {
     margin: 15px;
 }
 
+.greeting {
+    display: grid;
+    grid-template-columns: 60px 410px;
+    grid-template-rows: 30px 30px;
+}
+
+.img {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    background-color: blue;
+    margin: 5px;
+}
+
+.greet-one {
+    grid-column: 2;
+    grid-row: 1;
+    margin: auto 0px;
+}
+
+.greet-two {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 24px;
+}
+
+.button-panel {
+    display: grid;
+    grid-template-columns: repeat(3,90px);
+}
+
+button {
+    margin: 15px;
+    border-radius: 15px;
+    border: none;
+    
+}
+
+
+
 .sidebar {
     background-color: lightcoral;
     grid-column: 1;
