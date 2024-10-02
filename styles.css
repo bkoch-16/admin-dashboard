@@ -129,6 +129,10 @@ button {
     display: inline-block;
 }
 
+img {
+    fill: white;
+}
+
 .main-content {
     background-color: lightgreen;
     grid-column: 2;
